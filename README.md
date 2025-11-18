@@ -233,3 +233,13 @@ can:
   pro, the community and our team are ready to support with any challenges.
 - **Propose Ideas**: Have an idea for a feature or improvement? Let us know!
   We’re always eager to hear what you’d like to see next.
+
+
+
+When FORGETTING ABOUT PASSWORD
+RESET AND/OR CHANGE PASS IN DOCKER
+
+docker exec -u node -it <n8n-node-name> n8n user-management:reset
+
+SET THIS TO FALSE
+N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=false
